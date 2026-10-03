@@ -1,0 +1,25 @@
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: news@example.com
+Subject: Delivery Status Notification (Failure)
+Content-Type: multipart/report; report-type=delivery-status; boundary="b1"
+
+--b1
+Content-Type: text/plain
+
+The recipient's inbox is full and can't accept messages now.
+
+--b1
+Content-Type: message/delivery-status
+
+Final-Recipient: rfc822; full@example.org
+Action: failed
+Status: 5.2.2
+Diagnostic-Code: smtp; 552-5.2.2 The email account that you tried to reach is over quota.
+
+--b1
+Content-Type: message/rfc822
+
+X-WPM-Send: {HEADER}
+Subject: Hi
+
+--b1--

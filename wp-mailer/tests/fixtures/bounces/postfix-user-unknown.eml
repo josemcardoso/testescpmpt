@@ -1,0 +1,49 @@
+Return-Path: <>
+Delivered-To: bounces+{SEND}@example.com
+Received: from mail.example.com (localhost) by mail.example.com (Postfix)
+Date: Fri, 2 Oct 2026 10:00:00 +0000 (UTC)
+From: MAILER-DAEMON@mail.example.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: bounces+{SEND}@example.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="ABC123"
+
+This is a MIME-encapsulated message.
+
+--ABC123
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients.
+
+<nobody@gmail.com>: host gmail-smtp-in.l.google.com said: 550-5.1.1 The email
+    account that you tried to reach does not exist.
+
+--ABC123
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.example.com
+Arrival-Date: Fri, 2 Oct 2026 09:59:58 +0000 (UTC)
+
+Final-Recipient: rfc822; nobody@gmail.com
+Original-Recipient: rfc822;nobody@gmail.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does
+    not exist.
+
+--ABC123
+Content-Description: Undelivered Message Headers
+Content-Type: text/rfc822-headers
+
+From: "Shop" <news@example.com>
+To: nobody@gmail.com
+Subject: Our October news
+X-WPM-Send: {HEADER}
+
+--ABC123--

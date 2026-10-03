@@ -1,0 +1,52 @@
+.wpm .num { text-align: right; }
+.wpm .wpm-sub, .wpm .wpm-muted { color: #646970; font-size: 12px; }
+.wpm .wpm-danger { color: #b32d2e; }
+.wpm .wpm-error { color: #b32d2e; font-weight: 600; }
+.wpm .wpm-spacer { flex: 1; }
+.wpm .wpm-count { color: #646970; margin-left: 8px; }
+.wpm .wpm-search { margin: 8px 0; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.wpm .wpm-actions a { margin-right: 8px; }
+.wpm .wpm-inline-forms .button { margin-right: 6px; }
+.wpm .wpm-narrow { max-width: 720px; }
+.wpm .wpm-url { word-break: break-all; }
+
+.wpm-badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; background: #f0f0f1; color: #3c434a; vertical-align: middle; }
+.wpm-badge-sending, .wpm-badge-scheduled, .wpm-badge-queued { background: #e5f0fa; color: #0a4b78; }
+.wpm-badge-sent { background: #e7f5ea; color: #00632e; }
+.wpm-badge-paused, .wpm-badge-soft-bounce { background: #fcf3e3; color: #8a5a00; }
+.wpm-badge-failed, .wpm-badge-hard-bounce, .wpm-badge-cancelled, .wpm-badge-bounced { background: #fbeaea; color: #8a1f1f; }
+.wpm-badge-unsubscribed, .wpm-badge-skipped { background: #f0f0f1; color: #50575e; }
+
+.wpm-card { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 4px 20px 16px; margin: 16px 0; max-width: 1100px; }
+.wpm-card h2 { margin-top: 16px; }
+.wpm-rule { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+.wpm-sample { margin-top: 8px; max-width: 1100px; }
+.wpm-send-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.wpm-details { margin: 12px 0; }
+.wpm-details summary { cursor: pointer; font-weight: 600; }
+
+.wpm-title { font-size: 1.4em; width: 100%; max-width: 640px; padding: 4px 8px; }
+.wpm-toolbar { display: flex; gap: 8px; align-items: center; margin: 8px 0; flex-wrap: wrap; }
+.wpm-device.is-active { background: #2271b1; border-color: #2271b1; color: #fff; }
+.wpm-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+.wpm-code .CodeMirror { border: 1px solid #c3c4c7; }
+.wpm-code textarea { min-height: 620px; }
+.wpm-preview-wrap { background: #e9ebee; border: 1px solid #c3c4c7; display: flex; justify-content: center; min-height: 620px; overflow: auto; }
+#wpm-preview { width: 100%; height: 620px; border: 0; background: #fff; transition: width .2s; }
+.wpm-help { max-width: 900px; }
+.wpm-help li { list-style: disc; margin-left: 20px; }
+@media (max-width: 1100px) { .wpm-split { grid-template-columns: 1fr; } }
+
+.wpm-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; margin: 16px 0 8px; }
+.wpm-stat { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 12px 16px; display: flex; flex-direction: column; }
+.wpm-stat-label { color: #646970; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+.wpm-stat-value { font-size: 28px; font-weight: 600; line-height: 1.3; }
+.wpm-stat-sub { color: #646970; font-size: 12px; }
+.wpm-progress { height: 10px; background: #e0e0e0; border-radius: 5px; overflow: hidden; max-width: 600px; }
+.wpm-progress span { display: block; height: 100%; background: #2271b1; }
+.wpm-timeline { display: flex; align-items: flex-end; gap: 2px; height: 120px; background: #fff; border: 1px solid #c3c4c7; padding: 8px; overflow-x: auto; }
+.wpm-bar { position: relative; flex: 0 0 10px; height: 100%; display: flex; align-items: flex-end; gap: 1px; }
+.wpm-bar span { display: block; width: 50%; min-height: 0; }
+.wpm-bar-open, .wpm-key-open { background: #2271b1; }
+.wpm-bar-click, .wpm-key-click { background: #d63638; }
+.wpm-legend span { display: inline-block; width: 10px; height: 10px; margin: 0 4px 0 12px; }

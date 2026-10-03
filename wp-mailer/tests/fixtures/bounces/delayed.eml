@@ -1,0 +1,14 @@
+From: MAILER-DAEMON@mail.example.com
+To: bounces+{SEND}@example.com
+Subject: Delayed Mail (still being retried)
+Content-Type: multipart/report; report-type=delivery-status; boundary="d"
+
+--d
+Content-Type: message/delivery-status
+
+Final-Recipient: rfc822; slow@example.org
+Action: delayed
+Status: 4.4.1
+Diagnostic-Code: X-Postfix; connect to mx.example.org: Connection timed out
+
+--d--
