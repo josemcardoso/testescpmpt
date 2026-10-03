@@ -1,0 +1,18 @@
+From: Mail Delivery System <Mailer-Daemon@host.example.net>
+To: news@example.com
+Subject: Mail delivery failed: returning message to sender
+Content-Type: text/plain; charset=utf-8
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gone@example.net
+    No Such User Here
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <bounces+{SEND}@example.com>
+X-WPM-Send: {HEADER}
+Subject: Our October news

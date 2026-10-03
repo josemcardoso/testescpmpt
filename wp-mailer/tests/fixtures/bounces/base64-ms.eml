@@ -1,0 +1,11 @@
+From: postmaster@outlook.com
+To: news@example.com
+Subject: Undeliverable: Our October news
+Content-Type: multipart/report; report-type=delivery-status; boundary="ms"
+
+--ms
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+{B64}
+--ms--
